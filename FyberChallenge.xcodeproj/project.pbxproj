@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A379664319E08017009C22CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A379664219E08017009C22CE /* main.m */; };
+		A379664619E08017009C22CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A379664519E08017009C22CE /* AppDelegate.m */; };
+		A379664919E08017009C22CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A379664819E08017009C22CE /* ViewController.m */; };
+		A379664C19E08017009C22CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A379664A19E08017009C22CE /* Main.storyboard */; };
+		A379664E19E08017009C22CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A379664D19E08017009C22CE /* Images.xcassets */; };
+		A379665119E08017009C22CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A379664F19E08017009C22CE /* LaunchScreen.xib */; };
+		A379665D19E08017009C22CE /* FyberChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A379665C19E08017009C22CE /* FyberChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A379665719E08017009C22CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A379663519E08017009C22CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A379663C19E08017009C22CE;
+			remoteInfo = FyberChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A379663D19E08017009C22CE /* FyberChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FyberChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A379664119E08017009C22CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A379664219E08017009C22CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A379664419E08017009C22CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A379664519E08017009C22CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A379664719E08017009C22CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A379664819E08017009C22CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A379664B19E08017009C22CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A379664D19E08017009C22CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A379665019E08017009C22CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A379665619E08017009C22CE /* FyberChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FyberChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A379665B19E08017009C22CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A379665C19E08017009C22CE /* FyberChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FyberChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A379663A19E08017009C22CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A379665319E08017009C22CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A379663419E08017009C22CE = {
+			isa = PBXGroup;
+			children = (
+				A379663F19E08017009C22CE /* FyberChallenge */,
+				A379665919E08017009C22CE /* FyberChallengeTests */,
+				A379663E19E08017009C22CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A379663E19E08017009C22CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A379663D19E08017009C22CE /* FyberChallenge.app */,
+				A379665619E08017009C22CE /* FyberChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A379663F19E08017009C22CE /* FyberChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				A379664419E08017009C22CE /* AppDelegate.h */,
+				A379664519E08017009C22CE /* AppDelegate.m */,
+				A379664719E08017009C22CE /* ViewController.h */,
+				A379664819E08017009C22CE /* ViewController.m */,
+				A379664A19E08017009C22CE /* Main.storyboard */,
+				A379664D19E08017009C22CE /* Images.xcassets */,
+				A379664F19E08017009C22CE /* LaunchScreen.xib */,
+				A379664019E08017009C22CE /* Supporting Files */,
+			);
+			path = FyberChallenge;
+			sourceTree = "<group>";
+		};
+		A379664019E08017009C22CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A379664119E08017009C22CE /* Info.plist */,
+				A379664219E08017009C22CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A379665919E08017009C22CE /* FyberChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A379665C19E08017009C22CE /* FyberChallengeTests.m */,
+				A379665A19E08017009C22CE /* Supporting Files */,
+			);
+			path = FyberChallengeTests;
+			sourceTree = "<group>";
+		};
+		A379665A19E08017009C22CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A379665B19E08017009C22CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A379663C19E08017009C22CE /* FyberChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A379666019E08017009C22CE /* Build configuration list for PBXNativeTarget "FyberChallenge" */;
+			buildPhases = (
+				A379663919E08017009C22CE /* Sources */,
+				A379663A19E08017009C22CE /* Frameworks */,
+				A379663B19E08017009C22CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FyberChallenge;
+			productName = FyberChallenge;
+			productReference = A379663D19E08017009C22CE /* FyberChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A379665519E08017009C22CE /* FyberChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A379666319E08017009C22CE /* Build configuration list for PBXNativeTarget "FyberChallengeTests" */;
+			buildPhases = (
+				A379665219E08017009C22CE /* Sources */,
+				A379665319E08017009C22CE /* Frameworks */,
+				A379665419E08017009C22CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A379665819E08017009C22CE /* PBXTargetDependency */,
+			);
+			name = FyberChallengeTests;
+			productName = FyberChallengeTests;
+			productReference = A379665619E08017009C22CE /* FyberChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A379663519E08017009C22CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Bruno Rocha";
+				TargetAttributes = {
+					A379663C19E08017009C22CE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A379665519E08017009C22CE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A379663C19E08017009C22CE;
+					};
+				};
+			};
+			buildConfigurationList = A379663819E08017009C22CE /* Build configuration list for PBXProject "FyberChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A379663419E08017009C22CE;
+			productRefGroup = A379663E19E08017009C22CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A379663C19E08017009C22CE /* FyberChallenge */,
+				A379665519E08017009C22CE /* FyberChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A379663B19E08017009C22CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A379664C19E08017009C22CE /* Main.storyboard in Resources */,
+				A379665119E08017009C22CE /* LaunchScreen.xib in Resources */,
+				A379664E19E08017009C22CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A379665419E08017009C22CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A379663919E08017009C22CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A379664919E08017009C22CE /* ViewController.m in Sources */,
+				A379664619E08017009C22CE /* AppDelegate.m in Sources */,
+				A379664319E08017009C22CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A379665219E08017009C22CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A379665D19E08017009C22CE /* FyberChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A379665819E08017009C22CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A379663C19E08017009C22CE /* FyberChallenge */;
+			targetProxy = A379665719E08017009C22CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A379664A19E08017009C22CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A379664B19E08017009C22CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A379664F19E08017009C22CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A379665019E08017009C22CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A379665E19E08017009C22CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A379665F19E08017009C22CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A379666119E08017009C22CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FyberChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A379666219E08017009C22CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FyberChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A379666419E08017009C22CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FyberChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FyberChallenge.app/FyberChallenge";
+			};
+			name = Debug;
+		};
+		A379666519E08017009C22CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FyberChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FyberChallenge.app/FyberChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A379663819E08017009C22CE /* Build configuration list for PBXProject "FyberChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A379665E19E08017009C22CE /* Debug */,
+				A379665F19E08017009C22CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A379666019E08017009C22CE /* Build configuration list for PBXNativeTarget "FyberChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A379666119E08017009C22CE /* Debug */,
+				A379666219E08017009C22CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A379666319E08017009C22CE /* Build configuration list for PBXNativeTarget "FyberChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A379666419E08017009C22CE /* Debug */,
+				A379666519E08017009C22CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A379663519E08017009C22CE /* Project object */;
+}
