@@ -95,11 +95,15 @@
     
     [mDict setObject: [cString sha1] forKey: @"hashkey"];
     
-    [[self getSharedInstance] getOffers: mDict success:^(NSMutableArray *content) {
+    [[self getSharedInstance] getOffers: mDict success:^(id result) {
         waitingForBlock = NO;
+        XCTAssertTrue([result isKindOfClass: [NSArray class]] , @"result is a NSArray");
+        NSArray *content = (NSArray *)result;
         XCTAssertTrue(content.count, @"Contain Offers");
+        
     } failure:^(NSError *error) {
         XCTAssertNotNil(error, "Something is probaly wrong");
+
     }];
     
     while(waitingForBlock) {
