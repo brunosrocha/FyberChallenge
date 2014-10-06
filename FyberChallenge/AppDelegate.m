@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,20 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
     // Override point for customization after application launch.
+    [[IQKeyboardManager sharedManager] setEnable: YES];
+    [[IQKeyboardManager sharedManager] setShouldResignOnTouchOutside: YES];
+    [[IQKeyboardManager sharedManager] setShouldShowTextFieldPlaceholder: YES];
+    [[IQKeyboardManager sharedManager] setOverrideKeyboardAppearance: NO];
+    [IQKeyboardManager sharedManager].keyboardDistanceFromTextField = 20.0;
+    
+    UIViewController *viewController = [[UIStoryboard storyboardWithName: @"Main" bundle: nil] instantiateViewControllerWithIdentifier: @"viewController"];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: viewController];
+    
     return YES;
 }
 
